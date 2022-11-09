@@ -1,0 +1,76 @@
+@import 'styles/main';
+
+.root {
+  font-family: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 var(--gap24);
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  min-height: 40px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  transition: background-color var(--transitionTime), color var(--transitionTime), border-color var(--transitionTime);
+
+  &:hover:not(:disabled) {
+    background-color: var(--color-blue-hover);
+  }
+  &:active:not(:disabled) {
+    
+    background-color: var(--color-blue-active);
+  }
+
+  &:focus:not(:disabled) {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+  }
+}
+
+.ghost {
+  font-family: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  border: 0;
+  min-height: 24px;
+  background: transparent;
+  font-size: 1rem;
+  color: var(--color-text200);
+
+  transition: color var(--transitionTime);
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &:focus:not(:disabled) {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-outline);
+  }
+
+  &:hover:not(:disabled) {
+    color: var(--color-blue-hover);
+  }
+  &:active:not(:disabled) {
+    color: var(--color-blue-active);
+  }
+}
+
+

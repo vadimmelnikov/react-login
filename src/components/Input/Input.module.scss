@@ -1,0 +1,37 @@
+.root {
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px solid var(--color-border);
+  display: block;
+  width: 100%;
+  min-height: 40px;
+  border-radius: 6px;
+  padding: 0 var(--gap8);
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--color-black);
+
+  transition: color var(--transitionTime), border-color var(--transitionTime);
+
+
+  &::placeholder {
+    color: var(--color-text200);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+  
+  &:hover:not(:disabled) {
+    border-color: var(--color-blue-hover);
+  }
+
+  &:active:not(:disabled) {
+    border-color: var(--color-blue-active);
+  }
+
+  &:focus:not(:disabled) {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-outline);
+  }
+}

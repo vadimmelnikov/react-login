@@ -1,0 +1,51 @@
+.root {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-stretch: 125%;
+}
+
+.size-small {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: .04em;
+}
+
+.size-small-medium {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: .06em;
+}
+
+.size-medium {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: .08em;
+}
+
+.size-large {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: .10em;
+}
+
+.size-media-large {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.weight-regular {
+  font-weight: 400;
+}
+
+.weight-medium {
+  font-weight: 500;
+}
+
+.weight-semibold {
+  font-weight: 600;
+}
+
+.weight-bold {
+  font-weight: 700;
+}

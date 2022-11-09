@@ -1,0 +1,52 @@
+@import './variables';
+@import './mixins';
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  outline-color: var(--color-blue-outline);
+}
+
+html {
+  height: 100%;
+  background-color: var(--color-black);
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-black);
+  margin: 0;
+  font-size: 16px;
+  background-image: url('../../public/images/sky.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+#root {
+  min-height: 100%;
+  position: relative;
+}
+
+a {
+  color: var(--color-black);
+  text-decoration: none;
+  transition: color var(--transitionTime);
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: var(--gap40);
+  padding-right: var(--gap40);
+
+  @include media-tablet {
+    padding-left: var(--gap20);
+    padding-right: var(--gap20);
+  }
+}
+
