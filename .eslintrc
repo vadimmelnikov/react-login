@@ -64,7 +64,7 @@
     "react/require-default-props": "off",
     "id-length": [
       "error",
-      { "min": 2, "exceptions": ["s", "t", "i", "x", "y"] }
+      { "min": 2, "exceptions": ["s", "t", "i", "x", "y", "e"] }
     ],
     "import/order": [
       "error",

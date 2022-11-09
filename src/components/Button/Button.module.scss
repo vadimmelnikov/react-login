@@ -60,11 +60,6 @@
     cursor: not-allowed;
   }
 
-  &:focus:not(:disabled) {
-    outline: none;
-    box-shadow: 0 0 0 3px var(--color-outline);
-  }
-
   &:hover:not(:disabled) {
     color: var(--color-blue-hover);
   }

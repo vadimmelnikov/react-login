@@ -1,7 +1,6 @@
 @import './variables';
 @import './mixins';
 
-
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -11,12 +10,11 @@
 }
 
 html {
-  height: 100%;
   background-color: var(--color-black);
 }
 
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--color-black);
@@ -25,13 +23,8 @@ body {
   background-image: url('../../public/images/sky.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: scroll;
 }
 
-#root {
-  min-height: 100%;
-  position: relative;
-}
 
 a {
   color: var(--color-black);

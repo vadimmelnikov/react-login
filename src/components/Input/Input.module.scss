@@ -1,3 +1,5 @@
+@import 'styles/main';
+
 .root {
   background-color: transparent;
   box-shadow: none;
@@ -10,9 +12,11 @@
   font-family: inherit;
   font-size: 1rem;
   color: var(--color-black);
-
   transition: color var(--transitionTime), border-color var(--transitionTime);
 
+  @include media-tablet {
+    font-size: 0.875rem;
+  }
 
   &::placeholder {
     color: var(--color-text200);
@@ -33,5 +37,13 @@
   &:focus:not(:disabled) {
     outline: none;
     box-shadow: 0 0 0 3px var(--color-outline);
+  }
+
+  &:required:valid {
+    border-color: var(--color-border);
+  }
+  
+  &.error {
+    border-color: var(--color-red);
   }
 }

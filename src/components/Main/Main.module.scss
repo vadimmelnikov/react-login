@@ -1,3 +1,5 @@
+@import 'styles/main';
+
 .root {
   min-height: 100vh;
   min-height: var(--doc-height);
@@ -10,11 +12,28 @@
   display: block;
   margin: 0 auto;
   margin-bottom: var(--gap12);
+
+  @include media-tablet {
+    width: 65px;
+    height: 65px;
+  }
 }
 
 .title {
-  margin-bottom: var(--gap16);
+  margin-bottom: var(--gap28);
   text-align: center;
+
+  @include media-tablet {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: var(--gap16);
+  }
+
+  @include media-mobile {
+    font-size: 2.25rem;
+    line-height: 3rem;
+    margin-bottom: var(--gap12);
+  }
 }
 
 .formWrapper {
@@ -24,12 +43,28 @@
   max-width: 500px;
   width: 100%;
   margin: var(--gap32) 0;
+
+  @include media-tablet {
+    max-width: 400px;
+    padding: var(--gap24);
+    border-radius: 26px;
+  }
+
+  @include media-mobile {
+    max-width: 100%;
+    padding: var(--gap20);
+    border-radius: 20px;
+  }
 }
 
 .row {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: var(--gap16);
+
+  @include media-tablet {
+    row-gap: var(--gap12);
+  }
 }
 
 .cell {
@@ -40,6 +75,10 @@
   display: inline-block;
   padding-bottom: var(--gap8);
   font-size: 0.875rem;
+
+  @include media-tablet {
+    font-size: 0.75rem;
+  }
 }
 
 .inputWrapper {
@@ -48,7 +87,7 @@
   input {
     padding-right: var(--gap36);
 
-    &:hover {
+    &:hover:not(:disabled) {
       & + .icon, + .button {
         color: var(--color-blue-hover);
       }
@@ -76,7 +115,7 @@
 .button {
   border-radius: 4px;
   
-  &:hover {
+  &:hover:not(:disabled) {
     color: var(--color-blue);
   }
 }
@@ -85,4 +124,48 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.error {
+  color: var(--color-red);
+  font-size: 0.75rem;
+}
+
+.submit {
+  min-width: 114px;
+
+  span {
+    font-weight: 700;
+  }
+
+  @include media-tablet {
+    min-height: 32px;
+    padding: 0 var(--gap20);
+
+    span  {
+      font-size: 0.85rem;
+    }
+  }
+
+  @include media-mobile {
+    span {
+      font-size: 0.75rem;
+    }
+  }
+}
+
+.inputCheckbox{
+  display: flex;
+}
+
+.label_checkbox {
+  flex-shrink: 0;
+  margin-right: var(--gap8);
+}
+
+.loader {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
 }
