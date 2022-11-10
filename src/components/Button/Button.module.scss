@@ -13,7 +13,7 @@
   background: transparent;
   border: none;
   color: var(--color-white);
-  background-color: var(--color-blue);
+  background-color: var(--color-blue-hover);
   min-height: 40px;
   border-radius: 4px;
   font-size: 1rem;
@@ -26,7 +26,7 @@
   transition: background-color var(--transitionTime), color var(--transitionTime), border-color var(--transitionTime);
 
   &:hover:not(:disabled) {
-    background-color: var(--color-blue-hover);
+    background-color: var(--color-blue);
   }
   &:active:not(:disabled) {
     
@@ -63,8 +63,14 @@
   &:hover:not(:disabled) {
     color: var(--color-blue-hover);
   }
+
   &:active:not(:disabled) {
     color: var(--color-blue-active);
+  }
+
+  &:focus:not(:disabled) {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
   }
 }
 

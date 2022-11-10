@@ -129,6 +129,7 @@ const Main = () => {
                     onClick={() => setShowPassword((prevState) => !prevState)}
                     className={s.button}
                     disabled={isLoading}
+                    aria-label="Eye"
                   >
                     {showPassword ? <HideEyeIcon /> : <EyeIcon />}
                   </Button>
@@ -140,8 +141,8 @@ const Main = () => {
 
               <footer className={s.footer}>
                 <Checkbox
-                  name="input-check"
-                  id="input-check"
+                  name="checkbox"
+                  id="checkox"
                   label="Remember me?"
                   checked={!!user.remember || false}
                   onChange={handleChangeCheckbox('remember')}

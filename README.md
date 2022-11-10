@@ -54,3 +54,5 @@ _variables.scss
 _mixins.scss медазапросы 
 
 favicon https://favicon.io/emoji-favicons/grinning-cat
+
+Оптимизирован под google page speed!
