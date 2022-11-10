@@ -56,3 +56,6 @@ _mixins.scss медазапросы
 favicon https://favicon.io/emoji-favicons/grinning-cat
 
 Оптимизирован под google page speed!
+
+https://pagespeed.web.dev/report?url=https%3A%2F%2Fvadimmelnikov.github.io%2Freact-login%2F&form_factor=mobile
+https://pagespeed.web.dev/report?url=https%3A%2F%2Fvadimmelnikov.github.io%2Freact-login%2F&form_factor=desktop
