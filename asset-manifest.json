@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-login/static/css/main.c0d7d01e.css",
-    "main.js": "/react-login/static/js/main.b59db184.js",
+    "main.css": "/react-login/static/css/main.fd9e1db3.css",
+    "main.js": "/react-login/static/js/main.8e2a7092.js",
     "static/media/sky.jpg": "/react-login/static/media/sky.5b7dc28012fad6386bd6.jpg",
     "static/media/sky-mobile.jpg": "/react-login/static/media/sky-mobile.3771f80708c50f5ff094.jpg",
     "static/media/logo.svg": "/react-login/static/media/logo.b51d54895cc778822003af46494ac099.svg",
@@ -10,11 +10,11 @@
     "static/media/eye.svg": "/react-login/static/media/eye.c6fb205f738f1c0fd905b429ba3146d7.svg",
     "static/media/user.svg": "/react-login/static/media/user.f4d6e92a521f354e476611e2dc6300c9.svg",
     "static/media/checkbox.svg": "/react-login/static/media/checkbox.64438c5621bf485313171f3b2f9b0458.svg",
-    "main.c0d7d01e.css.map": "/react-login/static/css/main.c0d7d01e.css.map",
-    "main.b59db184.js.map": "/react-login/static/js/main.b59db184.js.map"
+    "main.fd9e1db3.css.map": "/react-login/static/css/main.fd9e1db3.css.map",
+    "main.8e2a7092.js.map": "/react-login/static/js/main.8e2a7092.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0d7d01e.css",
-    "static/js/main.b59db184.js"
+    "static/css/main.fd9e1db3.css",
+    "static/js/main.8e2a7092.js"
   ]
 }
