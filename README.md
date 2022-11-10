@@ -23,6 +23,7 @@ Optimization images
 
 hooks
   useFullHeight - избавляет от баг в ios height: 100vh; 
+  <br>
   useForm - спасибо https://github.com/fgerschau/react-custom-form-validation-example, конечно работает так себе, на onBlur нету события, но не хотел ставить npm либу для кастомной валидации
 
 UI компоненты: Button, Input, Checkbox, Text, Title, Loader
@@ -32,6 +33,7 @@ UI компоненты: Button, Input, Checkbox, Text, Title, Loader
 Чтобы реакт продолжал работать когда ругается линтер в .env можно прописать:
 <br>
 TSC_COMPILE_ON_ERROR=true
+<br>
 ESLINT_NO_DEV_ERRORS=true
 
 
@@ -39,10 +41,12 @@ styles - обычно использую Sass в связке с css-modules, т
 
 globals.scss 
   body - родительский font-size: 16px, дочерние уже в rem.
+  <br>
   импортирован normalize
 
 _variables.scss
   каждый цвет в переменной
+  <br>
   gap кратен 4px (хороший тон в дизайне для отступов)
 
 _mixins.scss медазапросы 
