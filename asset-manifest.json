@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-login/static/css/main.8f36b337.css",
+    "main.css": "/react-login/static/css/main.9099d470.css",
     "main.js": "/react-login/static/js/main.f5b7e15f.js",
     "static/media/sky.jpg": "/react-login/static/media/sky.5b7dc28012fad6386bd6.jpg",
     "static/media/sky-mobile.jpg": "/react-login/static/media/sky-mobile.3771f80708c50f5ff094.jpg",
@@ -10,11 +10,11 @@
     "static/media/eye.svg": "/react-login/static/media/eye.c6fb205f738f1c0fd905b429ba3146d7.svg",
     "static/media/user.svg": "/react-login/static/media/user.f4d6e92a521f354e476611e2dc6300c9.svg",
     "static/media/checkbox.svg": "/react-login/static/media/checkbox.64438c5621bf485313171f3b2f9b0458.svg",
-    "main.8f36b337.css.map": "/react-login/static/css/main.8f36b337.css.map",
+    "main.9099d470.css.map": "/react-login/static/css/main.9099d470.css.map",
     "main.f5b7e15f.js.map": "/react-login/static/js/main.f5b7e15f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f36b337.css",
+    "static/css/main.9099d470.css",
     "static/js/main.f5b7e15f.js"
   ]
 }
