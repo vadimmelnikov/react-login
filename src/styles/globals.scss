@@ -1,5 +1,6 @@
 @import './variables';
 @import './mixins';
+@import-normalize;
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -11,6 +12,7 @@
 
 html {
   background-color: var(--color-black);
+  min-height: 100%;
 }
 
 body {
@@ -23,8 +25,10 @@ body {
   background-image: url('../../public/images/sky.jpg');
   background-size: cover;
   background-position: center;
+  min-height: 100%;
 }
 
+input, select { font-size: 100%; }
 
 a {
   color: var(--color-black);

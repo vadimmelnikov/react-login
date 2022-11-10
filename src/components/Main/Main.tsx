@@ -54,7 +54,7 @@ const Main = () => {
     setTimeout(() => {
       // alert('User logined!');
       setIsLoading(false);
-    }, 1000);
+    }, 2000);
   };
 
   useFullHeight();
