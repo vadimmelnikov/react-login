@@ -21,6 +21,8 @@ Optimization images
 
 Картинка (лого) через loading="lazy"
 
+Картинка background - для десктопа и для мобилки разного разрешения
+
 hooks
   useFullHeight - избавляет от баг в ios height: 100vh; 
   <br>

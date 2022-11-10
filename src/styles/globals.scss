@@ -29,6 +29,8 @@ body {
 
   @include media-tablet {
     background-image: url('../../public/images/sky-mobile.jpg');
+    background-position: right center;
+    background-size: cover;
   }
 }
 
