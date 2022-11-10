@@ -52,8 +52,8 @@ const Main = () => {
     setIsLoading(true);
 
     setTimeout(() => {
-      // alert('User logined!');
       setIsLoading(false);
+      document.location.reload();
     }, 2000);
   };
 

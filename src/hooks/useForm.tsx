@@ -99,7 +99,6 @@ export const useForm = <T extends Record<keyof T, any> = {}>(options?: {
 
     if (options?.onSubmit) {
       options.onSubmit();
-      setData({});
     }
   };
 
