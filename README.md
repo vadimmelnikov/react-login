@@ -26,7 +26,7 @@ Optimization images:
 hooks
   useFullHeight - избавляет от баг в ios height: 100vh; 
   <br>
-  useForm - спасибо https://github.com/fgerschau/react-custom-form-validation-example, конечно работает так себе, на onBlur нету события, но не хотел ставить npm либу для кастомной валидации
+  useForm - спасибо https://github.com/fgerschau/react-custom-form-validation-example, конечно работает так себе, на onBlur нету события. Валидация email через regex
 
 UI компоненты: Button, Input, Checkbox, Text, Title, Loader
 
