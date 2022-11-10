@@ -26,6 +26,10 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 100%;
+
+  @include media-tablet {
+    background-image: url('../../public/images/sky-mobile.jpg');
+  }
 }
 
 input, select { font-size: 100%; }
