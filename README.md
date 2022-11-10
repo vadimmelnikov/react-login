@@ -1,23 +1,23 @@
 Demo: https://vadimmelnikov.github.io/react-login
 
-Thanks for icons
+Thanks for icons:
 
 [Free Icon Pack 1600+ icons](https://www.figma.com/community/file/886554014393250663)
 
-Image from
+Image from:
 
 [goodfon.ru](https://www.goodfon.ru/wallpaper/tuman-oblaka-neboskreb.html)
 
-Logo
+Logo:
 
 [evilmartians](https://evilmartians.com/)
 
-Optimization images 
+Optimization images:
 
 [squoosh](https://squoosh.app/)
 
 
-Шрифты (https://fonts.google.com/specimen/Open+Sans) подключены через <link/>
+Шрифты https://fonts.google.com/specimen/Open+Sans подключены через link
 
 Картинка (лого) через loading="lazy"
 
