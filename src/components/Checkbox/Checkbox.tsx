@@ -30,7 +30,6 @@ const Checkbox = React.forwardRef<HTMLInputElement, InputPropsTypes>(
 
     return (
       <div className={classes}>
-        <label htmlFor={id} />
         <input type="checkbox" name={name} id={id} ref={ref} {...props} />
         <div className={s.checkBlock}>
           <CheckboxIcon />
